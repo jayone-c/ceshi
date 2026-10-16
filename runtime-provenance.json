@@ -1,0 +1,122 @@
+{
+  "cwd": "/workspace",
+  "processes": [
+    {
+      "pid": 2263,
+      "name": "python3",
+      "exe": "/root/.pyenv/versions/3.14.7/bin/python3.14",
+      "cwd": "/workspace"
+    },
+    {
+      "pid": 821,
+      "name": "supervisord",
+      "exe": "/usr/bin/python3.12",
+      "cwd": "/workspace"
+    },
+    {
+      "pid": 822,
+      "name": "agent-tool-host",
+      "exe": "/app/bin/agent-tool-host",
+      "cwd": "/workspace"
+    }
+  ],
+  "directories": {
+    "/app": [
+      {
+        "name": "bin",
+        "directory": true
+      },
+      {
+        "name": "current_revision",
+        "directory": false
+      },
+      {
+        "name": "etc",
+        "directory": true
+      },
+      {
+        "name": "lib",
+        "directory": true
+      },
+      {
+        "name": "mcp_proxy_bootstrap",
+        "directory": true
+      },
+      {
+        "name": "pre",
+        "directory": true
+      },
+      {
+        "name": "supervisord.conf",
+        "directory": false
+      }
+    ],
+    "/opt": [],
+    "/usr/local/bin": [
+      {
+        "name": "bazel",
+        "directory": false
+      },
+      {
+        "name": "bazelisk",
+        "directory": false
+      },
+      {
+        "name": "composer",
+        "directory": false
+      },
+      {
+        "name": "corepack",
+        "directory": false
+      },
+      {
+        "name": "entrypoint.sh",
+        "directory": false
+      },
+      {
+        "name": "node",
+        "directory": false
+      },
+      {
+        "name": "npm",
+        "directory": false
+      },
+      {
+        "name": "npx",
+        "directory": false
+      },
+      {
+        "name": "pnpm",
+        "directory": false
+      },
+      {
+        "name": "restic",
+        "directory": false
+      },
+      {
+        "name": "setup_universal.sh",
+        "directory": false
+      },
+      {
+        "name": "verify.sh",
+        "directory": false
+      },
+      {
+        "name": "yarn",
+        "directory": false
+      }
+    ],
+    "/usr/local/lib": [
+      {
+        "name": "python3.12",
+        "directory": true
+      }
+    ],
+    "/workspace": [
+      {
+        "name": "README.md",
+        "directory": false
+      }
+    ]
+  }
+}
