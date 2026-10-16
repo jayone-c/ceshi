@@ -1,0 +1,67 @@
+{
+  "directories": {
+    "/app/bin": [
+      {
+        "name": "agent-tool-host",
+        "directory": false,
+        "bytes": 114013392
+      },
+      {
+        "name": "ctx-cli",
+        "directory": false,
+        "bytes": 2867184
+      },
+      {
+        "name": "dws",
+        "directory": false,
+        "bytes": 23759441
+      },
+      {
+        "name": "wecom-cli",
+        "directory": false,
+        "bytes": 11099568
+      }
+    ],
+    "/app/lib": [],
+    "/app/pre": [
+      {
+        "name": "plugin-binaries",
+        "directory": true,
+        "bytes": null
+      }
+    ],
+    "/app/mcp_proxy_bootstrap": [
+      {
+        "name": "node_modules",
+        "directory": true,
+        "bytes": null
+      },
+      {
+        "name": "package-lock.json",
+        "directory": false,
+        "bytes": 592
+      },
+      {
+        "name": "package.json",
+        "directory": false,
+        "bytes": 125
+      },
+      {
+        "name": "preload.cjs",
+        "directory": false,
+        "bytes": 728
+      }
+    ]
+  },
+  "revision": {
+    "bytes": 154,
+    "sha256": "911163180f948fee0a988743730e44fb665453ac551cd0fe333fcb558836a507"
+  },
+  "executables": [
+    {
+      "path": "/app/bin/agent-tool-host",
+      "bytes": 114013392,
+      "sha256": "d79f4139d8ece732b33d39503d76575b330ece3f0211b257e3e931b00195c754"
+    }
+  ]
+}
